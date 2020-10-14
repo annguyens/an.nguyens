@@ -205,6 +205,11 @@ icons{
   border-style: none;
 }
 
+.portrait{
+  border-radius: 50%;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
+}
+
 img.icons {
   width: 60px;
   height: 60px;
@@ -213,7 +218,7 @@ img.icons {
   transition: box-shadow .2s ease;
 }
 
-img.icons:hover {
+.icons:hover {
   box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
 }
 
@@ -412,7 +417,7 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 350;
 }
 
 .display-1 {
