@@ -417,8 +417,9 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 350;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
 }
 
 .display-1 {
