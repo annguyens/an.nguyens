@@ -82,7 +82,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  margin-top: 0;
+  margin-top: 0.75rem;
   margin-bottom: 0.5rem;
 }
 
@@ -207,8 +207,8 @@ icons{
 }
 
 .portrait{
-  border-radius: 50%;
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
+  border-radius: 7%;
+  box-shadow: 0 10px 20px rgba(0,21,64,.138559)
 }
 
 img.icons {
@@ -4270,6 +4270,10 @@ input[type="button"].btn-block {
   .custom-select {
     transition: none;
   }
+}
+
+.title{
+  font-size: 3rem;
 }
 
 .nav {
