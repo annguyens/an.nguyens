@@ -208,7 +208,6 @@ icons{
 
 .portrait{
   border-radius: 7%;
-  box-shadow: 0 10px 20px rgba(0,21,64,.138559)
 }
 
 img.icons {
@@ -4911,6 +4910,8 @@ input[type="button"].btn-block {
 .card-img,
 .card-img-top,
 .card-img-bottom {
+  padding: 0%;
+  border-radius: 15px !important;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
